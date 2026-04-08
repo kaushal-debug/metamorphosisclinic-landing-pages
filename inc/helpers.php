@@ -12,5 +12,5 @@ function jsonDecode($data) {
 }
 
 function home_url() {
-    return 'https://wjf.fva.mybluehostin.me/metamorphosisclinic-landing-pages-dev';
+    return 'https://appointment.metamorphosis-clinic.com';
 }
