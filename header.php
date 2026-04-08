@@ -18,7 +18,6 @@ if(isset($_GET['slug']) && !empty($_GET['slug'])) {
     
     <meta name="description" content="<?php echo isset($page_Data['meta_description']) ? $page_Data['meta_description'] : 'Metamorphosis Clinic'; ?>">
     
-    <meta property="og:image" content="<?php echo home_url(); ?>/<?php echo $page_Data['og_image']; ?>">
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="<?php echo home_url(); ?>/assets/images/global/favicon.ico">
