@@ -1,0 +1,399 @@
+@media (max-width: 1024px) {    
+    .h1-title {
+        font-size: 32px;
+    }
+
+
+
+    .hero-content .sub-title{
+        font-size: 14px;
+    }
+
+    .feature-box {
+        gap:10px;
+    }
+
+    .feature-box .text {
+        font-size: 14px;
+    }
+
+    .feature-box .icon img {
+        width: 30px;
+    }
+
+    /* how-works STAR */
+
+    .step-item p {
+        font-size: 18px;
+    }
+    .step-circle.out {
+        width: 72px;
+        height: 72px;
+    }
+
+    .step-circle.in {
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .step-circle span {
+        font-size: 13px;
+    }
+    
+    .step-card-wrapper .steps-card{
+        padding: 15px 21px;
+    }
+    .step-item {
+        margin-bottom: 25px;
+    }
+
+    .v2 .steps-wrap {
+        height: 320px;
+    }
+    /* how-works END */
+
+
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding: 20px 0;
+    }
+    .section .h2-title{
+        margin-bottom: 32px;
+    }
+    .h1-title {
+        font-size: 30px;
+    }
+    .h2-title {
+        font-size: 26px;
+    }
+
+    .hero-features {
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+
+    /* Contact Section START */
+    .contact-section .form-row {
+        flex-direction: column-reverse;
+        gap: 15px;
+    }
+    .contact-card {
+        padding: 25px 20px;
+    }
+
+    .contact-title {
+        font-size: 24px;
+    }
+
+    .btn-submit {
+        width: 100%;
+    }   
+
+    /* Contact Section END*/
+    /* before- Section START*/
+
+    .before-after-section .h2-title {
+        margin-bottom: 15px;
+    }
+    .beforeAfterSwiper {
+        margin-top: 15px;
+        padding-bottom: 55px;
+    }
+    /* before- Section END*/
+    .how-works-section .row {
+        gap: 10px;
+    }
+    /* FAQ START */
+    .faq-section .faq-question p, .faq-section .faq-answer p {
+        font-size: 15px;
+    }
+
+    /* FAQ ENd*/
+
+    /* Footer START */
+    
+    .top-foooter .wraper {
+       margin-bottom: 35px;
+    }
+
+    .middle-foooter ul li {
+        font-size: 15px;
+        line-height: 17px;
+    }
+    /* Footer END */
+
+
+}
+@media (max-width: 450px) {
+
+    .for-desktop{
+        display: none;
+    }
+    .for-mobile{
+        display: block;
+    }
+    .section .h2-title{
+        margin-bottom: 10px;
+    }
+    .h1-title {
+        font-size: 22px; 
+    }
+    .h2-title {
+        font-size: 20px;
+    }
+
+
+    
+    /* Hero Section START */
+    .hero-section{
+        padding: 10px 0 40px;
+     }
+    .hero-features-wrapper {
+        display: flex;
+        gap: 15px;
+        align-items: stretch;
+    }
+
+    .hero-features {
+        width: 40%;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 0;
+    }
+    .feature-box {
+        padding: 4px 8px;
+        gap: 8px;
+    }
+    .feature-box .text {
+        font-size: 8px;
+    }
+    .feature-box .icon img {
+        width: 20px;
+    }
+    .image-wrapper img {
+        width: 100%;
+        border-radius: 12px;
+        border: 1px solid #ff2b8a;
+    }
+
+    .image-wrapper.for-mobile {
+        width: 60%;
+    }
+
+    /* Hero Section END */
+
+    
+
+    /* Contact Section START */
+    .contact-section {
+        padding: 20px 0;
+    }
+
+    .contact-form-wrapper {
+        padding: 25px 20px;
+        border-radius: 20px;
+    }
+
+    .contact-title {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    .form-group {
+        gap: 8px;
+    }
+
+    .form-label {
+        font-size: 14px;
+    }
+
+    .form-control {
+        padding: 12px 15px;
+        font-size: 14px;
+    }
+
+    .contact-section .btn-primary {
+        width:100%;
+        padding: 10px 40px;
+    }
+
+    .form-group select:valid, .form-group input::placeholder, .form-group input  {
+        font-size: 12px;
+    }
+
+    .form-group {
+        margin-bottom: 12px;
+    }
+
+    .form-group input, .form-group select, .form-group textarea{
+        padding: 0 20px;
+    }
+
+    /* Contact Section END */
+    /* before-after Section START */
+    .before-after-section .h2-title {
+        margin-bottom: 10px;
+    }
+
+    
+    /* before-after Section END */
+        /* how-works START */
+
+    /* .step-card-wrapper .steps-card{
+        margin: 0px 12px;
+    } */
+    .step-item p {
+        font-size: 15px;
+    }
+    .step-circle.out {
+        width: 40px;
+        height: 40px;
+    }
+    .step-circle.in {
+        font-size: 12px;
+        width: 30px;
+        height: 30px;
+    }
+    .step-circle span {
+        font-size: 8px;
+    }
+
+    .benefit p {
+        font-size: 16px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    .step-item:not(:last-child)::after{
+        left: 18px;
+        top: 41px;
+        width: 2px;
+    }
+
+    /* Version 2 */
+    .v2 .step-card-wrapper .steps-card{
+        padding: 15px 5px 15px 15px;
+    }
+    
+    .v2 .steps-card .steps .step-title {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    
+    .v2 .steps-card .steps p {
+        font-size: 13x;
+        margin-bottom: 10px;
+    }
+    /* how-works END */
+     /* Testimonial START */
+
+    .testimonial-section .testimonial-card{
+
+        padding: 15px;
+    }
+    .testimonial-section .testimonial-card .testimonial-content h6{
+        font-size: 12px ;
+        margin-bottom: 8px;
+    }
+
+    .testimonial-section .testimonial-card .testimonial-content p{
+        font-size: 12px ;
+        margin-bottom: 15px;
+    }
+    .testimonial-section .testimonial-card .testimonial-author .author-img img{
+        width: 30px;
+    }
+
+    .testimonial-section .testimonial-card .testimonial-author .author-name h4{
+        font-size: 12px ;
+        margin-bottom: 3px;
+    }
+
+    .testimonial-section .testimonial-card .testimonial-author .author-name p{
+        font-size: 11px ;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        width: 35px;
+        height: 35px;
+    }
+
+    .swiper-button-next:after, .swiper-button-prev:after {
+        font-size: 14px;
+    }
+    /* Testimonial END */
+
+    /* FAQ START */
+    .faq-section .faq-question p, .faq-section .faq-answer p {
+        font-size: 14px;
+    }
+
+    .faq-section .faq-question .icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .faq-section .faq-item .icon img {
+        width: 14px;
+        margin-top: 3px;
+    }
+    .faq-section .faq-item.active .faq-question {
+        padding-bottom: 12px;
+    }
+
+    .faq-section .faq-item {
+        padding: 18px 16px;
+        margin-bottom: 10px;
+    }
+
+    .faq-section .faq-answer {
+        padding-top: 8px;
+    }
+
+    h2.h2-title {
+        margin-bottom: 20px;
+    }
+
+    .faq-section .h2-title {
+        margin-bottom: 20px;
+    }
+    /* FAQ ENd*/
+    /* Footer START */
+
+    .middle-foooter .city-wrapper ul {
+        overflow-x: auto;
+        list-style: none;
+        scrollbar-width: 5px; 
+    }
+
+    .middle-foooter .city-wrapper ul::-webkit-scrollbar-thumb {
+        background: #a36171;
+        border-radius: 10px;
+    }
+
+    .middle-foooter .city-wrapper ul::-webkit-scrollbar-thumb:hover {
+        background: #c27a8b;
+    }
+
+    .middle-foooter .city-wrapper ul li{
+        width: 30%;
+        flex: 0 0 auto;
+    }
+
+    .bottom-footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .bottom-footer p {
+        margin-bottom: 20px;
+    }
+    /* Footer END */
+
+}
+
