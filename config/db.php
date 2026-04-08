@@ -1,6 +1,6 @@
 <?php
-$conn = new mysqli("localhost", "wjffvamy_metamorphosis_admin", "n_[P$0_S)S-E", "wjffvamy_metamorphosisclinic_landing_pages_wpdb");
-
+$conn = new mysqli("localhost", "mhpqafquga", "VmnQRuyb3a", "mhpqafquga");
+mhpqafquga
 if ($conn->connect_error) {
     die("DB Connection Failed");
 }
